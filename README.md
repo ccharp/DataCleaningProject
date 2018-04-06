@@ -5,4 +5,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 CodeBook.md describes these transformations in detail.
 
-Simply execute run\_analysis.R in this repositories root directly and observe the generation of combined\_transformed.csv.
+Simply execute run\_analysis.R in this repositories root directly and observe the generation of the output txt files, clean.txt and clean\_avg.txt.

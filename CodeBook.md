@@ -4,7 +4,7 @@
 This code book describes the data transformation from raw in the data/ directory using run\_anaysis.R.
 
 ## Transformation
-The data transformation is performed by run\_analysis.R and is summarized as follows (ultimately resulting in two CSVs):
+The data transformation is performed by run\_analysis.R and is summarized as follows (ultimately resulting in two text files):
 1. Combine raw training and test sets into a single data frame
       * data/test/X\_test.txt
       * data/test/y\_test.txt
@@ -15,9 +15,9 @@ The data transformation is performed by run\_analysis.R and is summarized as fol
 2. Filter out all variables that are not a mean or standard deviation using variables names given in features.txt
 3. Name the remaining variables in correspondence with the contents of features.txt
 4. Replace the categorical numeric values of the Activity variable with strings found in activity\_labels.txt
-5. Write the transformed data up to this point into a new file called cleaned.csv
+5. Write the transformed data up to this point into a new file called cleaned.txt
 6. Group the data by subject and activity and summarize each group's numerical data by mean.
-7. Write result of Step-6 to cleaned\_reduced.csv
+7. Write result of Step-6 to cleaned\_reduced.txt
 
 ## Data
 Variable | Description
