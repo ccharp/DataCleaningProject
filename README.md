@@ -1,4 +1,4 @@
-# class4project
+# DataCleaning project
 
 This repository contains a single R script, run\_analysis.R that transforms human activity recognition data collected on smartphones. The data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
