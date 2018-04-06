@@ -36,4 +36,5 @@ combined_avg <- combined %>%
     select(-grouping) %>%
     arrange(participant, activity)
 
-write.csv(combined_avg, file="combined_transformed.csv")
+write.csv(combined, file="cleaned.csv")
+write.csv(combined_avg, file="cleaned_reduced.csv")
